@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hangman</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>HANGMAN</h1>
+      <p>
+        Guess the secret word by choosing one letter at a time. Each correct
+        guess reveals the position(s) of the guessed letter in the word. The
+        game ends when you either guess the word correctly or the hangman is
+        completely drawn.
+      </p>
+
+      <div class="hangman-diagram">
+        <div class="head"></div>
+        <div class="body"></div>
+        <div class="left-arm"></div>
+        <div class="right-arm"></div>
+        <div class="left-leg"></div>
+        <div class="right-leg"></div>
+        <div class="left-eye">
+          <div class="left-eye1"></div>
+          <div class="left-eye2"></div>
+        </div>
+        <div class="right-eye">
+          <div class="right-eye1"></div>
+          <div class="right-eye2"></div>
+        </div>
+      </div>
+      <ul class="letters"></ul>
+      <div class="word-container">
+        <h2 class="word">WORD:</h2>
+        <div class="word-spaces"></div>
+      </div>
+      <p class="message"></p>
+      <button class="restart">Restart</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
