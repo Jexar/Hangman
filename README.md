@@ -20,7 +20,7 @@ A classic word-guessing game implemented in HTML, CSS, and JavaScript.
 
 1. Clone the repository:
 
-- `https://github.com/Jexar/Hangman.git`
+- `git clone https://github.com/Jexar/Hangman.git`
 
 2. Open `index.html` in your web browser.
 
